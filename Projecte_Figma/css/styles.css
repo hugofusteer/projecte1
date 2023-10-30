@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+/*NATURA*/
+
+body{
+    height: 1024px;
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    width: 100%;
+    position: relative;
+}
+.center{
+    width: 500px;
+    height: 1044px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 0;
+}
+
+/*NATURA TEXT*/
+
+h1{
+    width: 134px;
+    height: 28px;
+    left: 50px;
+    top: 41px;
+    margin: 33px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.3em;
+    
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+/*VECTOR 1*/
+
+.vector1{
+    width: 50%;
+    height: 1044px;
+    display: flex;
+    background: #A0CDC9;
+    border: 1px solid #A2CAC8;
+}
+
+.left-lorem{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: center;
+}
+/*VECTOR 2*/
+
+.vector2{
+    width: 50%;
+    height: 1044px;
+    background: #A074B7;
+    border: 1px solid #A2CAC8;
+    display: flex;
+}
+
+.right-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 33px auto 20px;
+}
+
+.right-lorem{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*FLEX-CONTAINER*/
+
+.flex-container{
+    display: flex;
+}
+
+/*Eco Hub*/
+.ecohub{
+
+    font-family: 'Agbalumo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 131px;
+    line-height: 100px;
+    letter-spacing: 0.07em;
+    width: 100%;
+    text-align: center;
+    margin: 9px auto 100px;
+    color: #FFFFFF;
+
+}
+
+/*Grupo Contactos*/
+.signup{
+    width: 100px;
+    height: 23px;
+    left: 1296px;
+    top: 58px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(63, 76, 139, 0.2);
+}
+
+.contacto{
+    width: 103px;
+    height: 23px;
+    left: 1156px;
+    top: 58px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt */
+.loremizq{
+    width: 295px;
+    height: 72px;
+    left: 251px;
+    top: 331px;
+    margin-right: 300px;
+    margin-top: -335px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;    
+}
+
+.loremder{
+    width: 295px;
+    height: 72px;
+    left: 893px;
+    top: 331px;
+    margin-left: 300px;
+    margin-top: -335px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+/*Buscador*/
+
+.search{
+    position: relative;
+}
+
+.search > input{
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: calc(100% - 80px);
+    margin: 40px 60px 40px 20px;
+    background: transparent;
+    padding: 3px;
+}
+
+.search::after{
+    position: absolute;
+    right: -10px;
+    top: 24px;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba( 164, 178, 254, 0.2);
+    border-radius: 20px;
+}
+
+.imagen-flores{
+    position: absolute;
+    width: 100%;
+    top: 534px;
+    left: -284px;
+}
+
+/* Primary button */
+
+/* Auto layout */
+.boton{
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+
+    background: #000000;
+    border-radius: 40px;
+}
+
+.contenedor-boton{
+    width: 100%;
+    margin: 160px auto 100px;
+    text-align: center;
+}
